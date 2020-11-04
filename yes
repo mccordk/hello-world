@@ -1,0 +1,35 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+void printMessage()
+{
+  cout << "whats happening, fam?" << endl;
+}
+
+void getData(int& num1, int& num2, int& num3)
+{
+  cout << "Enter 1st Number: ";
+  cin >> num1;
+  cout << "\n\nEnter 2nd Number: ";
+  cin >> num2;
+  cout << "\n\nEnter 3rd Number: ";
+  cin >> num3;
+}
+
+void calculate(int num1, int num2, int num3, int& product)
+{
+  product = num1 * num2 * num3;
+}
+
+void printResults(int product)
+{
+  cout << "The Product of the the three numbers is: " << endl;
+}
+
+int main()
+{
+  int num1, num2, num3, product;
+  
+  
